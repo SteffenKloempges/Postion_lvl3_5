@@ -23,34 +23,40 @@ main{
     margin: 0;
 }
 /* ====Styling Nav==== */
-main nav{
+nav{
     margin: 0;
     height: 50px;
-    background: rgba(102,102,102, .4);
+    background: rgba(46,49,49,.4);
     position: sticky;
-    top: 0;   
+    top: 0;
+    bottom: 0;
+    color: #fff;
 }
-main nav h2{
+nav h2{
     margin: 0;
     padding-left: 10px;
     padding-top: 10px;
 }
-main nav ul{
+nav ul{
     list-style: none;
     margin: 0;
     position: relative;
 }
-main nav ul li:nth-of-type(1){
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav ul li:nth-of-type(1){
     position:absolute;
     top: -20px;
     right: 100px;  
 }
-main nav ul li:nth-of-type(2){
+nav ul li:nth-of-type(2){
     position:absolute;
     top: -20px;
     right: 300px;  
 }
-main nav ul li:nth-of-type(3){
+nav ul li:nth-of-type(3){
     position:absolute;
     top: -20px;
     right: 500px;  
